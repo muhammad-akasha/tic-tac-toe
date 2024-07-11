@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+body {
+  background-image: url("https://www.shutterstock.com/shutterstock/photos/2036719460/display_1500/stock-vector-abstract-game-light-out-technology-and-with-neon-triangles-hitech-communication-concept-innovation-2036719460.jpg");
+  background-size: cover
+}
+:root {
+  --b-none: none;
+  --b-color: solid rgb(255, 255, 255);
+  --padding: 10px;
+}
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 50px;
+  letter-spacing: 5px
+  
+}
+.tik-tac-container {
+  margin-top: 50px;
+}
+.my-flex {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.my-flex h2 {
+  font-size: 70px;
+  font-weight: 500;
+  color: #fff;
+}
+.my-flex div {
+  width: 150px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.first-row div,
+.second-row div {
+  border: var(--b-color);
+  border-width: 0px 4px 4px 0px;
+}
+
+.third-row div {
+  border: var(--b-color);
+  border-width: 0px 4px 0px 0px;
+}
+.last-box {
+  border-right: var(--b-none) !important;
+}
+
+.players {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.winner{
+  font-size: 40px;
+  color: #fff;
+  font-style: italic
+}

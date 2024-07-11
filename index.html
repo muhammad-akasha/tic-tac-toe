@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>
+      Tic - Tac - Toe
+    </h1>
+
+    <div class="tik-tac-container">
+      <div class="first-row my-flex">
+        <div class="b-one cell" onclick="printXAnd0(this)"></div>
+        <div class="b-two cell" onclick="printXAnd0(this)"></div>
+        <div class="b-three last-box cell" onclick="printXAnd0(this)"></div>
+      </div>
+      <div class="second-row my-flex">
+        <div class="b-four cell" onclick="printXAnd0(this)"></div>
+        <div class="b-five cell" onclick="printXAnd0(this)"></div>
+        <div class="b-six last-box cell" onclick="printXAnd0(this)"></div>
+      </div>
+      <div class="third-row my-flex">
+        <div class="b-seven cell" onclick="printXAnd0(this)"></div>
+        <div class="b-eight cell" onclick="printXAnd0(this)"></div>
+        <div class="b-nine last-box cell" onclick="printXAnd0(this)"></div>
+      </div>
+    </div>
+
+    <div class="players">
+      <div>
+        <h3 class="winner"></h3>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
